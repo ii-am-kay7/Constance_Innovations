@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constance Innovations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome CSS -->
+    <link rel="icon" href="logo.jpeg" type="image/jpeg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* White background */
+            color: #55467e; /* Purple text color */
+        }
+        header {
+            background-color: #55467e; /* Dark purple header background */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            max-width: 100px; /* Adjust the width as needed */
+            margin-right: 10px; /* Adjust the margin as needed */
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #7d6a9d; /* Lighter purple navigation background */
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 10px;
+        }
+        nav i {
+            margin-right: 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: #f0f0f0; /* Light gray background for cards */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .card:hover {
+            background-color: #e0e0e0; /* Darker gray background on hover */
+        }
+        .card h2 {
+            color: #55467e; /* Purple text color for card headings */
+        }
+        footer {
+            background-color: #55467e; /* Dark purple footer background */
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Constance Innovations</h1>
+    </header>
+
+    <nav>
+        <a href="#tinting"><i class="fas fa-tint"></i> Tinting</a>
+        <a href="#mechanics"><i class="fas fa-tools"></i> Mechanics</a>
+        <a href="#buy-sell"><i class="fas fa-car"></i> Buy/Sell Cars</a>
+        <a href="#landscaping"><i class="fas fa-tree"></i> Landscaping</a>
+    </nav>
+
+    <section class="card" onclick="window.location='tinting.html'" id= "tinting">
+        <h2>Tinting Services</h2>
+        <p>Click to explore our top-notch tinting services for vehicles, homes, and commercial spaces.</p>
+    </section>
+
+    <section class="card" onclick="window.location='mechanics.html'" id= "mechanics">
+        <h2>Mechanical Services</h2>
+        <p>Discover top-tier minor mechanical services and precision brake repairs for your cherished vehicles.</p>
+    </section>
+
+    <section class="card" onclick="window.location='buy-sell.html'" id= "buy-sell">
+        <h2>Buy/Sell Cars</h2>
+        <p>Explore our one-stop destination for buying and selling cars, offering a diverse range of vehicles and high-quality car parts.</p>
+    </section>
+
+    <section class="card" onclick="window.location='landscaping.html'" id= "landscaping">
+        <h2>Landscaping Services</h2>
+        <p>Elevate your outdoor spaces with our professional landscaping services, creating stunning landscapes that enhance the beauty of your property.</p>
+    </section>
+
+    <footer>
+	<p>Contact details:</p>
+    </footer>
+</body>
+</html>
