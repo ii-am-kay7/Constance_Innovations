@@ -7,13 +7,13 @@
 	<link rel="icon" href="logo.jpeg" type="image/jpeg">
     <title>Tinting Services - Constance Innovations</title>
     <style>
-		 body {
-					font-family: Arial, sans-serif;
-					margin: 0;
-					padding: 0;
-					background-color: #fff; /* White background */
-					color: #55467e; /* Purple text color */
-				}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #fff; /* White background */
+			color: #55467e; /* Purple text color */
+		}
         header {
             background-color: #55467e; /* Dark purple header background */
             color: #fff;
@@ -44,16 +44,33 @@
         nav i {
             margin-right: 5px;
         }
-		section {
+		 .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        section {
+            box-sizing: border-box;
+            width: 69%; /* Adjust the width as needed */
+            padding: 30px;
+        }
+        aside {
+            box-sizing: border-box;
+            width: 30%; /* Adjust the width as needed */
             padding: 20px;
         }
-		 aside {
-            width: 80%;
-            margin: auto;
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
         }
-        aside img {
-            max-width: 100%; /* Make sure the image doesn't exceed its container */
-            margin-bottom: 20px; /* Adjust the margin as needed */
+        .image-container img {
+            width: 48%; /* Adjust the width as needed */
+            margin-bottom: 10px;
+        }
+		 li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -69,39 +86,43 @@
         <a href="landscaping.html"><i class="fas fa-tree"></i> Landscaping</a>
     </nav>
 	
-	<aside>
-        <img src="tinting1.jpeg" alt="Tinting Example 1">
-        <img src="tinting2.jpeg" alt="Tinting Example 2">
-		<img src="tinting3.jpeg" alt="Tinting Example 3">
-		<img src="tinting4.jpeg" alt="Tinting Example 4">
-		<img src="tinting5.jpeg" alt="Tinting Example 5">
-		<img src="tinting6.jpeg" alt="Tinting Example 6">
-    </aside>
-	
-	<section>
-		<p>We specialize in providing top-notch tinting services for vehicles, homes, and commercial spaces. Our expert team is dedicated to enhancing your comfort, safety, and the overall aesthetic appeal of your environment.</p>
+	<div class="container">
+		<section>
+			<h2>Why Choose Our Tinting Services:</h2>
+			<ul>
+				<li><strong>Expertise:</strong> With years of experience in the industry, our skilled technicians bring unparalleled expertise to every tinting project.</li>
+				<li><strong>Heat Rejection:</strong> Our high-quality tint films effectively reduce heat, creating a cooler and more comfortable atmosphere in your vehicle or building.</li>
+				<li><strong>UV Protection:</strong> Safeguard your interiors and protect your skin from harmful UV rays with our tint films that block a significant portion of ultraviolet radiation.</li>
+				<li><strong>Glare Reduction:</strong> Improve visibility and reduce eye strain with our tinting solutions, which minimize glare from the sun and other reflective surfaces.</li>
+				<li><strong>Privacy and Security:</strong> Enjoy increased privacy and security with tinted windows that limit visibility from the outside, whether in your car or at home.</li>
+				<li><strong>Aesthetics:</strong> Choose from a range of tint shades and styles to enhance the visual appeal of your vehicle or building, giving it a sleek and sophisticated look.</li>
+			</ul>
+
+			<h2>Our Process:</h2>
+			<ul>
+				<li><strong>Consultation:</strong> We take the time to understand your specific needs and recommend the most suitable tinting solution for you.</li>
+				<li><strong>Quality Materials:</strong> We use high-quality tint films that are durable, fade-resistant, and provide long-lasting performance.</li>
+				<li><strong>Precision Installation:</strong> Our technicians employ precise installation techniques to ensure a seamless and professional finish.</li>
+				<li><strong>Compliance:</strong> We adhere to local regulations and legal requirements to ensure that your tinting meets all safety standards.</li>
+			</ul>
+
+			<p>Discover the benefits of professional tinting services with Constance Innovations. Contact us today for a consultation and let us transform your driving or living experience.</p>
+		</section>
 		
-		<h2>Why Choose Our Tinting Services:</h2>
-        <ul>
-            <li><strong>Expertise:</strong> With years of experience in the industry, our skilled technicians bring unparalleled expertise to every tinting project.</li>
-            <li><strong>Heat Rejection:</strong> Our high-quality tint films effectively reduce heat, creating a cooler and more comfortable atmosphere in your vehicle or building.</li>
-            <li><strong>UV Protection:</strong> Safeguard your interiors and protect your skin from harmful UV rays with our tint films that block a significant portion of ultraviolet radiation.</li>
-            <li><strong>Glare Reduction:</strong> Improve visibility and reduce eye strain with our tinting solutions, which minimize glare from the sun and other reflective surfaces.</li>
-            <li><strong>Privacy and Security:</strong> Enjoy increased privacy and security with tinted windows that limit visibility from the outside, whether in your car or at home.</li>
-            <li><strong>Aesthetics:</strong> Choose from a range of tint shades and styles to enhance the visual appeal of your vehicle or building, giving it a sleek and sophisticated look.</li>
-        </ul>
-
-        <h2>Our Process:</h2>
-        <ul>
-            <li><strong>Consultation:</strong> We take the time to understand your specific needs and recommend the most suitable tinting solution for you.</li>
-            <li><strong>Quality Materials:</strong> We use high-quality tint films that are durable, fade-resistant, and provide long-lasting performance.</li>
-            <li><strong>Precision Installation:</strong> Our technicians employ precise installation techniques to ensure a seamless and professional finish.</li>
-            <li><strong>Compliance:</strong> We adhere to local regulations and legal requirements to ensure that your tinting meets all safety standards.</li>
-        </ul>
-
-        <p>Discover the benefits of professional tinting services with [Your Company Name]. Contact us today for a consultation and let us transform your driving or living experience.</p>
-    </section>
-	</section>
-   
+		<aside>
+            <div class="image-container">
+                <img src="tinting1.jpeg" alt="tinting Image 1">
+                <img src="tinting2.jpeg" alt="tinting Image 2">
+            </div>
+            <div class="image-container">
+                <img src="tinting3.jpeg" alt="tinting Image 3">
+                <img src="tinting4.jpeg" alt="tinting Image 4">
+            </div>
+            <div class="image-container">
+                <img src="tinting5.jpeg" alt="tinting Image 5">
+                <img src="tinting6.jpeg" alt="tinting Image 6">
+            </div>
+        </aside>
+    </div>
 </body>
 </html>

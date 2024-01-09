@@ -47,14 +47,34 @@
 		section {
             padding: 20px;
         }
-        footer {
-            background-color: #55467e; /* Dark purple footer background */
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+		 .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        section {
+            box-sizing: border-box;
+            width: 69%; /* Adjust the width as needed */
+            padding: 30px;
+        }
+        aside {
+            box-sizing: border-box;
+            width: 30%; /* Adjust the width as needed */
+            padding: 20px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 48%; /* Adjust the width as needed */
+            margin-bottom: 10px;
+        }
+		
+		 li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -70,8 +90,8 @@
         <a href="landscaping.html"><i class="fas fa-tree"></i> Landscaping</a>
     </nav>
 	
-	<section>
-		<p>We specialize in providing top-tier minor mechanical services and precision brake repairs for your cherished vehicles. Our commitment to excellence extends beyond services; we offer unbeatable prices on quality parts, ensuring your vehicle receives the care it deserves without breaking the bank.</p>
+	<div class="container">
+		<section>
 		<h2>Minor Mechanical Expertise:</h2>
         <p>Trust our skilled technicians to handle minor mechanical services with the utmost precision, keeping your vehicle in optimal condition for a smooth and worry-free ride.</p>
 
@@ -96,8 +116,23 @@
         <p>Schedule your next service with Constance Innovations and discover the perfect blend of expertise, affordability, and unmatched care for your vehicle.</p>
 
         <p>Drive with confidence. Drive with Constance Innovations.</p>
-    </section>
-	</section>
-   
+		</section>
+		
+		<aside>
+			<div class="image-container">
+				<img src="tinting1.jpeg" alt="tinting Image 1">
+				<img src="tinting2.jpeg" alt="tinting Image 2">
+			</div>
+			<div class="image-container">
+				<img src="tinting3.jpeg" alt="tinting Image 3">
+				<img src="tinting4.jpeg" alt="tinting Image 4">
+			</div>
+			<div class="image-container">
+				<img src="tinting5.jpeg" alt="tinting Image 5">
+				<img src="tinting6.jpeg" alt="tinting Image 6">
+			</div>
+		</aside>
+	</div>
+	
 </body>
 </html>

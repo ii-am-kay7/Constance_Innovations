@@ -47,7 +47,35 @@
 		section {
             padding: 20px;
         }
-		
+		 .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        section {
+            box-sizing: border-box;
+            width: 69%; /* Adjust the width as needed */
+            padding: 30px;
+        }
+        aside {
+            box-sizing: border-box;
+            width: 30%; /* Adjust the width as needed */
+            padding: 20px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 48%; /* Adjust the width as needed */
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -62,19 +90,51 @@
         <a href="buy-sell.html"><i class="fas fa-car"></i> Buy/Sell Cars</a>
     </nav>
 	
-	<section>
-		<p>Elevate your outdoor spaces with our professional landscaping services. From lush gardens to pristine lawns, our team is dedicated to creating stunning landscapes that enhance the beauty of your property. Transform your outdoor living experience with Constance Innovations.</p>
+	<div class="container">
+		<section>
 		<h2>Services Include:</h2>
-        <ul>
-            <li><strong>Laying Grass:</strong> From start to finish, we meticulously plan and execute the installation of fresh, high-quality grass. Watch your outdoor spaces come to life with a carpet of green that enhances the beauty of your surroundings.</li>
-            <li><strong>Grass Treatment:</strong> Ensure the longevity and health of your lawn with our professional grass treatment services. We employ cutting-edge techniques and quality products to nurture your grass, keeping it vibrant, resilient, and weed-free.</li>
-        </ul>
+         <ul>
+                 <li><strong>Lawn Planting:</strong> Immerse your surroundings in the beauty of a well-planned lawn. Our
+                    meticulous approach ensures the perfect installation of fresh, high-quality grass, creating a lush
+                    carpet of green.</li>
+                <li><strong>Garden Maintenance:</strong> Let us take care of your garden's health and beauty. Our expert
+                    team provides comprehensive garden maintenance services to keep your outdoor space vibrant and
+                    well-groomed.</li>
+                <li><strong>Top Dressing:</strong> Enhance soil quality and promote healthy plant growth with our top
+                    dressing services. We apply quality materials to improve soil structure and provide essential
+                    nutrients to your garden.</li>
+                <li><strong>Weed Killing:</strong> Say goodbye to unwanted intruders. Our professional weed-killing
+                    services target and eliminate weeds, ensuring a clean and pristine appearance for your garden.</li>
+                <li><strong>Spring Treatment:</strong> Welcome spring with a rejuvenated landscape. Our spring treatment
+                    services include a range of care activities to prepare your outdoor space for the vibrant season
+                    ahead.</li>
+                <li><strong>Grass Planting:</strong> Experience the joy of a newly planted grass area. We specialize in
+                    efficient and effective grass planting, turning your open spaces into verdant landscapes.</li>
+                <li><strong>Tree and Shrub Trimming:</strong> Sculpt your outdoor haven with our expert tree and shrub
+                    trimming services. We bring balance and shape to your greenery, enhancing both aesthetics and plant
+                    health.</li>
+            </ul>
 
         <p>At Constance Innovations, we go beyond landscaping – we create captivating outdoor environments that leave a lasting impression. Elevate your outdoor experience with our expert touch.</p>
 
         <p><strong>Constance Innovations - Where Your Landscape Dreams Come to Life.</strong></p>
-	</section>
-   
+		</section>
+		
+		<aside>
+			<div class="image-container">
+				<img src="tinting1.jpeg" alt="tinting Image 1">
+				<img src="tinting2.jpeg" alt="tinting Image 2">
+			</div>
+			<div class="image-container">
+				<img src="tinting3.jpeg" alt="tinting Image 3">
+				<img src="tinting4.jpeg" alt="tinting Image 4">
+			</div>
+			<div class="image-container">
+				<img src="tinting5.jpeg" alt="tinting Image 5">
+				<img src="tinting6.jpeg" alt="tinting Image 6">
+			</div>
+		</aside>
+	</div>
 </body>
 </html>
 
