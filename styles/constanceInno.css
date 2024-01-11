@@ -64,3 +64,35 @@ footer {
 footer div a {
     color: #fff; /* White link color */
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    header {
+        padding: 0.5em 0; /* Adjust header padding for smaller screens */
+    }
+
+    nav {
+        padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
+    }
+
+    nav a {
+        padding: 0.5em; /* Adjust navigation link padding for smaller screens */
+    }
+
+    section {
+        padding: 10px; /* Adjust section padding for smaller screens */
+    }
+
+    .card {
+        padding: 15px; /* Adjust card padding for smaller screens */
+        margin: 15px; /* Adjust card margin for smaller screens */
+    }
+
+    footer {
+        padding: 0.5em 0; /* Adjust footer padding for smaller screens */
+    }
+}

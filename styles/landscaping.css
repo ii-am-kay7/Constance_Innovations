@@ -67,3 +67,20 @@ aside {
 li {
     margin-bottom: 10px;
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    section {
+        width: 100%; /* Make the main content full width on smaller screens */
+    }
+
+    aside {
+        width: 100%; /* Make the sidebar full width on smaller screens */
+        margin-top: 20px; /* Add margin to separate the main content and sidebar */
+    }
+
+    .image-container img {
+        width: 100%; /* Make images full width on smaller screens */
+        margin-bottom: 20px; /* Increase margin for better spacing */
+    }
+}
