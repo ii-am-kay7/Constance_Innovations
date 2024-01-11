@@ -30,7 +30,7 @@ nav a {
 color: #fff;
 text-decoration: none;
 padding: 1em;
-margin: 0 10px;
+margin: 0 5px;
 }
 nav i {
 margin-right: 5px;
@@ -70,9 +70,6 @@ margin-bottom: 10px;
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
-    section {
-        width: 100%; /* Make the main content full width on smaller screens */
-    }
 
     aside {
         width: 100%; /* Make the sidebar full width on smaller screens */
@@ -88,7 +85,7 @@ margin-bottom: 10px;
         align-items: center; /* Center items on smaller screens */
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
-    
+
     nav a {
         margin: 10px 0; /* Add margin to separate navigation items on smaller screens */
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
