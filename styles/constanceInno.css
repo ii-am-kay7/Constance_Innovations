@@ -67,7 +67,7 @@ footer div a {
  header img {
             max-width: 100px; /* Adjust the width as needed */
             margin-right: 10px; /* Adjust the margin as needed */
-        }
+}
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
