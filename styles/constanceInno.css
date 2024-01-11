@@ -5,6 +5,7 @@ body {
     background-color: #fff; /* White background */
     color: #55467e; /* Purple text color */
 }
+
 header {
     background-color: #55467e; /* Dark purple header background */
     color: #fff;
@@ -13,11 +14,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column; /* Stack items vertically */
 }
-header img {
-    max-width: 100px; /* Adjust the width as needed */
-    margin-right: 10px; /* Adjust the margin as needed */
+
+header .logo {
+    max-width: 170px; /* Adjust the width as needed for the logo */
+    margin-bottom: 10px; /* Add margin between logo and heading */
 }
+
 header h1 {
     margin: 0;
 }
@@ -26,19 +30,23 @@ nav {
     padding: 1em 0;
     text-align: center;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 1em;
     margin: 0 10px;
 }
+
 nav i {
     margin-right: 5px;
 }
+
 section {
     padding: 20px;
     text-align: center;
 }
+
 .card {
     background-color: #f0f0f0; /* Light gray background for cards */
     padding: 20px;
@@ -47,12 +55,15 @@ section {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .card:hover {
     background-color: #e0e0e0; /* Darker gray background on hover */
 }
+
 .card h2 {
     color: #55467e; /* Purple text color for card headings */
 }
+
 footer {
     background-color: #55467e; /* Dark purple footer background */
     color: #fff;
@@ -61,9 +72,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 footer div a {
     color: #fff; /* White link color */
 }
+
  header img {
             max-width: 100px; /* Adjust the width as needed */
             margin-right: 10px; /* Adjust the margin as needed */
