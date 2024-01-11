@@ -3,64 +3,76 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff; /* White background */
-    color: #55467e; /* Purple text color */
+    color: #000; /* Black text color */
 }
+
 header {
-    background-color: #55467e; /* Dark purple header background */
-    color: #fff;
+    background-color: #000; /* Black header background */
+    color: #fff; /* White text color */
     text-align: center;
     padding: 1em 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 header img {
     max-width: 100px; /* Adjust the width as needed */
     margin-right: 10px; /* Adjust the margin as needed */
 }
+
 header h1 {
     margin: 0;
 }
- nav {
-    background-color: #7d6a9d; /* Lighter purple navigation background */
+
+nav {
+    background-color: #000000de; /* Black navigation background */
     padding: 1em 0;
     text-align: center;
 }
- nav a {
-    color: #fff;
+
+nav a {
+    color: #fff; /* White text color */
     text-decoration: none;
     padding: 1em;
     margin: 0 10px;
 }
+
 nav i {
     margin-right: 5px;
 }
- .container {
+
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 section {
     box-sizing: border-box;
     width: 69%; /* Adjust the width as needed */
     padding: 30px;
 }
+
 aside {
     box-sizing: border-box;
     width: 30%; /* Adjust the width as needed */
     padding: 20px;
 }
+
 .image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
 }
+
 .image-container img {
     width: 48%; /* Adjust the width as needed */
     margin-bottom: 10px;
 }
- li {
+
+li {
     margin-bottom: 10px;
 }
 
@@ -79,12 +91,13 @@ aside {
         width: 100%; /* Make images full width on smaller screens */
         margin-bottom: 20px; /* Increase margin for better spacing */
     }
+
     nav {
         flex-direction: column; /* Stack navigation items vertically */
         align-items: center; /* Center items on smaller screens */
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
-    
+
     nav a {
         margin: 10px 0; /* Add margin to separate navigation items on smaller screens */
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
