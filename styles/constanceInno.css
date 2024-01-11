@@ -64,27 +64,28 @@ footer {
 footer div a {
     color: #fff; /* White link color */
 }
+header img {
+    max-width: 100px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
 
 /* Media query for smaller screens */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-
-    header {
-        padding: 0.5em 0; /* Adjust header padding for smaller screens */
-    }
+@media only screen and (max-width: 768px) {
 
     nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center items on smaller screens */
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
     nav a {
-        padding: 0.5em; /* Adjust navigation link padding for smaller screens */
+        margin: 10px 0; /* Add margin to separate navigation items on smaller screens */
+        padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
     section {
         padding: 10px; /* Adjust section padding for smaller screens */
+        width: 100%; /* Make the main content full width on smaller screens */
     }
 
     .card {
