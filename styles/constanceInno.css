@@ -90,7 +90,8 @@ footer div a {
 
     .card {
         padding: 15px; /* Adjust card padding for smaller screens */
-        margin: 15px; /* Adjust card margin for smaller screens */
+        margin: 15px 0; /* Adjust card margin for smaller screens */
+        max-width: fit-content;
     }
 
     footer {
