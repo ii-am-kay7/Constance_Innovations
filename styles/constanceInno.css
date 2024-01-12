@@ -104,7 +104,7 @@ header img {
     nav a {
         color: #fff;
         text-decoration: none;
-        padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
+        padding: 10em 0; /* Adjust navigation padding for smaller screens */
     }
 
     section {
