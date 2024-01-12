@@ -95,8 +95,15 @@ header img {
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
-    nav a {
+    .nav-item {
+        display: flex; /* Ensure <i> and <a> stay together in a flex container */
+        align-items: center; /* Center items vertically within the flex container */
         margin: 10px 0; /* Add margin to separate navigation items on smaller screens */
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
         padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
