@@ -92,19 +92,19 @@ header img {
     nav {
         flex-direction: column; /* Stack navigation items vertically */
         align-items: center; /* Center items on smaller screens */
-        padding: 10em 0; /* Adjust navigation padding for smaller screens */
+        padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
     .nav-item {
         display: flex; /* Ensure <i> and <a> stay together in a flex container */
         align-items: center; /* Center items vertically within the flex container */
-        margin: 10px 0; /* Add margin to separate navigation items on smaller screens */
+        margin: 20px 0; /* Add margin to separate navigation items on smaller screens */
     }
 
     nav a {
         color: #fff;
         text-decoration: none;
-        padding: 10em 0; /* Adjust navigation padding for smaller screens */
+        padding: 0.5em 0; /* Adjust navigation padding for smaller screens */
     }
 
     section {
@@ -121,4 +121,4 @@ header img {
     footer {
         padding: 0.5em 0; /* Adjust footer padding for smaller screens */
     }
-}
+
